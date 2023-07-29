@@ -38,7 +38,8 @@
 
 .main {
   grid-area: store;
-  height: 70vh;
+  height: 75vh;
+  padding-bottom: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -58,14 +59,12 @@
 /*............Header..........*/
 
 header p {
-  padding-top: 5px;
   font-size: small;
   text-align: center;
 }
 
 .search {
-  width: 35%;
-  padding-bottom: 3px;
+  padding-bottom: 1px;
   background: #fff;
   border-radius: 3px;
 }
@@ -73,7 +72,7 @@ header p {
 .search label {
   padding-left: 1.5em;
   font-size: small;
-  color: #424949;
+  color: #42494981;
 }
 
 .search select {
@@ -137,7 +136,7 @@ header p {
   clip-path: circle(150% at top right);
 }
 
-/*............Store..........*/
+/*............Main..........*/
 
 .container {
   height: 85%;
